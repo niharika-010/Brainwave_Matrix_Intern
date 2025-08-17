@@ -11,6 +11,7 @@ This project implements a machine learning pipeline to classify news articles as
     Model Performance
     How it Works
     Usage
+    OutPut
     
 
 
@@ -33,11 +34,11 @@ Fake news poses a serious threat to public opinion and democracy. This project:
 Python,Pandas, NumPy,Matplotlib, Seaborn,Scikit-learn,Natural Language Processing (Regex, TF-IDF)
 
 📂 Project Structure:
-Fake_News_Detection/
-├── data                   
-├── fake_news_detection.py  
-├── README.md
-├── requirements.txt
+    Fake_News_Detection
+    data                   
+    fake_news_detection.py  
+    README.md
+    requirements.txt
 
 📊 Model Performance:
 Model	Accuracy (Approx)
@@ -74,7 +75,7 @@ Classification Report (Precision, Recall, F1-score)
   Then input a news article when prompted:
       Enter news text: <paste your article here>
   
-  OUT PUT:
+  Out Put:
   LR Prediction: Fake News
   DT Prediction: Fake News
   GBC Prediction: Not A Fake News
